@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="GET">
+            <p>Required information are followed  by*</p>
+            <h1>PAYMENT FORM</h1>
+            <hr>
+            <h2>Contact Information</h2>
+            <p>Name*: <input type="text" placeholder="Enter your name"></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p> 
+                    Male<input type="radio" name="gender" required>
+                    Female<input type="radio" name="gender" required>
+                </p>
+            </fieldset>
+                <p>
+                    Address*:<textarea name="address" cols="100" rows="8" placeholder="Enter your  valid address"></textarea>
+                </p>
+            
+        <p>email*<input type="email" placeholder="Enter valid email-id" required></p>
+        <p>phone no.*<input type="number" placeholder="Enter your number here"></p>
+        <hr>
+        <h2>Contact Information</h2>
+        <p>Card Type:
+        <select name="card_type" id="card_type" required>
+          <option value="">--select a card_type--</option>
+          <option value="visa">visa</option>
+          <option value="rupay">rupay</option>
+          <option value="mastercard">mastarcard</option>
+        </select>
+        </p>
+        <p>
+            card_number:
+            <input type="password" id="password" required>
+        </p>
+        <p>
+            expiration date:
+            <input type="date" id="date" required>
+        </p>
+        <p>CVV:
+            <input type="password"id="password">
+        </p>
+         <input type="submit" value="Pay Now">
+
+        </form>
+        <section></section>
+        <!-- <p>Here is the original image</p>
+        <img src="img/images.jpg" alt=""> -->
+        <!-- <img src="img/people-2604149_960_720.webp" alt=""> -->
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+        </footer>
+  
+    </div>
+   
+   
+    
+</body>
+</html>

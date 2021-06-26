@@ -1,0 +1,93 @@
+*{
+     box-sizing:border-box ;
+}
+body{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.637);
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: url('img/images.jpg'); */
+    /* background-repeat: no-repeat; */
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+
+}
+.container{
+    color:black;
+    border-radius: 20px;
+    padding:20px;
+
+}
+input[type="submit"]:hover{
+    background-color: coral;
+}
+
+
+input[type="submit"] {
+    width: 25%;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    margin-left: 350px;
+    border-radius: 15px;
+    /* margin: 25px; */
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select, address
+{
+    text-align: justify;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1 px solid white;
+}
+footer a{
+    display:  inline-block;
+    padding: 20px;
+    margin: 2opx;
+    overflow: hidden;
+    background-color: rgba(245, 222, 179, 0.788);
+    color: black;
+
+}
+footer{
+    background-color: wheat;
+    margin: 15px;
+}
+footer a:hover{
+    color:tomato;
+}
+footer a{
+    padding: 30px;
+}
+h1:hover{
+    font-size: 50px;
+    cursor: pointer;
+
+}
+fieldset{
+    border-radius: 10px;
+}
+textarea {
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 12px;
+    /* border: 10px solid black; */
+    /* border-image: url("img/images.jpg") 30 stretch; */
+    /* background: url(img/people-2604149_960_720.webp); */
+  /* background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover; */
+  
+
+}
+
+        
